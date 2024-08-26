@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap">
+  <title>Page admin</title>
+  <style>
+h1 {
+  font-family: 'Playfair Display', serif; 
+  font-size: 36px; 
+  color: white ; 
+}
+header {
+  color: #8A2BE2;
+  text-align: center;
+  padding: 20px;
+}
+body {
+    background: url('fond4.jpg') center center fixed;
+    background-size: cover ;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;   
+}
+#actions {
+  text-align: center;
+  margin: 20px;
+}
+button {
+  padding: 12px 20px;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #808080; 
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  font-family: 'Playfair Display', serif; 
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #b80b0b; 
+  color: #fff; 
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tableau de bord de l'administration</h1>
+  </header>
+
+  <section id="actions">
+    <a href="ajoutproduit.php"><button>Ajouter un produit</button></a>
+    <a href="supprimerproduit.php"><button>Supprimer un produit</button></a>
+    <a href="ajouter_utilisateur.html"><button>Ajouter un utilisateur</button></a>
+    <a href="supprimer_utilisateur.html"><button>Supprimer un utilisateur</button></a>
+    <a href="produits.php"><button>see products</button></a>
+    <a href="miseajourproduit.php"><button>update products</button></a>
+  </section>
+</body>
+</html>
